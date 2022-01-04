@@ -1,0 +1,80 @@
+*{margin: 0; padding: 0;font-family: 'Old Standard TT', serif;}
+.container{
+     display: grid;
+     justify-content: center;
+     align-content: center;
+     min-height: 100vh;
+     grid-template-columns: 30vw;
+     grid-template-rows: repeat(3,10vh) 5vh repeat(2,10vh);
+     grid-gap: 10px;
+     
+}
+body{
+    background-image: url('https://images.pexels.com/photos/40751/running-runner-long-distance-fitness-40751.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    color: #FFFFFF; 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+.submit-btn{
+    background-color: turquoise;
+}
+.bmi-value{
+    background-color:#FFFFFF ;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.status{
+    background-color:#FFFFFF;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+.container > div{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+}
+button,input{
+    min-width: 100%;
+    min-height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.5vw;
+    border-radius: 8px;
+}
+input{
+    background: #FFFFFF;
+    text-indent: 0.5em;
+    max-width:100% ;
+    color: black;
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+button{
+    background: rgb(71, 105, 255);
+    cursor: pointer;
+    color: #FFFFFF;
+}
+button:hover{
+    background: #c70039;
+    color: white;
+}
+p{
+    text-align: center;
+    background-color: black;
+}
